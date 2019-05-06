@@ -11,12 +11,6 @@ sudo apt-get update
 sudo apt-get install dotnet-sdk-2.1 -y
 dotnet dev-certs https
 
-# Teamviewer install
-wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-sudo dpkg -i teamviewer_amd64.deb 
-sudo apt --fix-broken install -y
-rm teamviewer_amd64.deb
-
 # MongoDb Atlus
 wget https://downloads.mongodb.com/compass/mongodb-compass-community_1.14.6_amd64.deb
 sudo dpkg -i mongodb-compass-community_1.14.6_amd64.deb

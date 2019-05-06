@@ -1,0 +1,15 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'pearofducks/ansible-vim'
+Plug 'micahelliott/rocannon'
+Plug 'myusuf3/numbers.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/syntastic'
+
+call plug#end()
+
+
+:setlocal spell spelllang=en_us
+
+
+:set complete+=kspell

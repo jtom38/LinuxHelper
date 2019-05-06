@@ -36,4 +36,4 @@ sudo pip install docker
 
 echo "Installing roles from galaxy.ansible.com"
 echo "[galaxy] Nagios Core - Server Side "
-ansible-galaxy install networklore.nagios
+#ansible-galaxy install networklore.nagios

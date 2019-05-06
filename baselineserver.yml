@@ -1,0 +1,19 @@
+
+
+# This is a file to help with getting a new server up and running.
+
+sudo apt update
+sudo apt upgrade -y
+
+echo "Installing pip..."
+sudo apt install pip -y
+
+echo "Installing Ansible..."
+sudo pip install ansible
+
+echo "Installing git..."
+sudo apt install git -y
+
+echo "Installing htop..."
+sudo apt install htop -y
+
